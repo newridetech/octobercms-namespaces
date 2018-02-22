@@ -1,0 +1,21 @@
+{
+    "name": "newridetech/octobercms-namespaces",
+    "type": "library",
+    "require": {
+        "october/backend": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Newride\\OctoberNamespaces\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Newride\\OctoberNamespaces\\tests\\": "tests/"
+        }
+    },
+    "license": "MIT"
+}
